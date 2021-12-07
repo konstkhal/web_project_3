@@ -1,4 +1,6 @@
 .page {
-  background-color: gray;
+  background-color: #2a2c2f;
   justify-items: center;
+  width: 100%;
+  color: #ffffff;
 }

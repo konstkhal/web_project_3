@@ -1,4 +1,5 @@
-.header {
+.header__lead {
+  max-width: 984px;
   display: flex;
   justify-content: center;
   flex-direction: column;
