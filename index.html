@@ -6,27 +6,45 @@
     <link rel="stylesheet" href="./pages/index.css" />
     <title>From Homeland to Homeland</title>
   </head>
-  <body>
-    <!-- VERY Beginning 20:25 -->
-    <div class="page">
-      <header class="header">
+  <body class="page">
+    <!-- VERY Beginning 20:25
+
+TODO
+13 структура - done
+13 30 мыть голову - done
+14 ховеры и первый вариант
+14 30 - сон
+15 30 шрифты присоединить
+16 45 гулять
+17 15 второй вариант
+17 45 третий вариант
+18 30 отправлять
+19 отправить на танину вакансию резюме
+19 30 отправить документы Авокадо
+20  bem углубить, окончательно отправить уже и исправлять ошметки
+
+-->
+
+    <header class="header">
+      <img
+        class="header__logo"
+        src="./images/logo.svg"
+        alt="Practicum art gallery logo in blue and white colors"
+      />
+    </header>
+
+    <main class="content">
+      <section class="lead">
+        <h1 class="lead__title">From Homeland to Homeland</h1>
+        <p class="lead__subtitle">
+          An epic journey from Kentucky to Burundi through Wales and Ukraine
+        </p>
         <img
-          class="header__logo"
-          src="./images/logo.svg"
-          alt="Practicum art gallery logo in blue and white colors"
+          class="lead__image"
+          src="./images/kalegin-michail-179870-unsplash.png"
         />
-        <section class="header__lead">
-          <h1 class="header__title">From Homeland to Homeland</h1>
-          <p class="header__subtitle">
-            An epic journey from Kentucky to Burundi through Wales and Ukraine
-          </p>
-          <img
-            class="header__image"
-            src="./images/kalegin-michail-179870-unsplash.png"
-          />
-        </section>
-      </header>
-      <main class="content"></main>
+      </section>
+
       <section class="intro">
         <h2 class="intro__title">
           Know the places your online pals come from a little better
@@ -48,7 +66,242 @@
           from, we're glad that you're our neighbor.
         </p>
       </section>
-      <footer class="footer"></footer>
-    </div>
+
+      <ul class="photo-grid">
+        <li class="photo-grid__item">
+          <img src="./images/photo-grid__item_0.png" />
+        </li>
+        <li class="photo-grid__item">
+          <img src="./images/photo-grid__item_1.png" />
+        </li>
+        <li class="photo-grid__item">
+          <img src="./images/photo-grid__item_2.png" />
+        </li>
+        <li class="photo-grid__item">
+          <img src="./images/photo-grid__item_3.png" />
+        </li>
+        <li class="photo-grid__item">
+          <img src="./images/photo-grid__item_4.png" />
+        </li>
+        <li class="photo-grid__item">
+          <img src="./images/photo-grid__item_5.png" />
+        </li>
+        <li class="photo-grid__item">
+          <img src="./images/photo-grid__item_6.png" />
+        </li>
+        <li class="photo-grid__item">
+          <img src="./images/photo-grid__item_7.png" />
+        </li>
+      </ul>
+
+      <ul class="places">
+        <li class="place">
+          <h2 class="place_title">Kyiv, Ukraine</h2>
+          <img class="place__image" src="./images/kyiv__image.png" />
+          <form
+            class="place__form"
+            method="get"
+            action="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+          >
+            <button class="place__button">Buy this artwork as NFT</button>
+          </form>
+
+          <article class="place__website">
+            <p class="place__url-heading">Artist</p>
+            <p class="place__artist">Natalia Dolgushina, content producer</p>
+          </article>
+          <p class="place__paragraph">
+            Kyiv (or Kiev), Ukraine's capital, is a large city located on the
+            shores of the Dnipro river. Of course, no one in their right mind
+            would swim in the river, unless they grew up here, in which case
+            they've probably tried it at some point. Summers are hot here, and
+            the winters are drafty, but the fall and the spring are are
+            absolutely amazing.
+          </p>
+          <p class="place__paragraph">
+            The city itself is a mix of pre-revolution, post-war and soviet
+            architecture, all of it sprinkled with modified balconies. If you're
+            on the right bank of the Dnipro, the landscape is difficult to
+            traverse for people on bikes and those wearing heels. The left bank
+            is considered far less interesting and prestigious though, even by
+            people who live on the far outskirts of the right one.
+          </p>
+        </li>
+        <li class="place">
+          <h2 class="place_title">Cricieth, Wales</h2>
+          <img class="place__image" src="./images/cricieth__image.png" />
+          <form
+            class="place__form"
+            method="get"
+            action="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+          >
+            <button class="place__button">Buy this artwork as NFT</button>
+          </form>
+
+          <article class="place__website">
+            <p class="place__url-heading">Artist</p>
+            <p class="place__artist">Steffan Warren, lead editor</p>
+            <p class="place__artist">Kseniya Glagoleva, project manager</p>
+          </article>
+          <p class="place__paragraph">
+            The medieval ruin of Cricieth Castle overlooks the town below from a
+            rock that juts out into the sea. It is thought to have been built by
+            Llewelyn the Great in the 13th century. Some 900 years later, the
+            self-styled Pearl of Wales on the Shores of Snowdonia has become a
+            popular tourist destination during the summer months.
+          </p>
+          <p class="place__paragraph">
+            A short walk down the road from the castle, you can enjoy the
+            world's best ice cream at Cadwalader's, whose secret ingredient is
+            rumored to be locally sourced seaweed. Another claim to fame is the
+            fact that Cricieth won the Wales in Bloom award for five years in a
+            row for its spectacular floral displays around town. It was also
+            home to David Lloyd George, the only Welshman ever to hold the
+            office of Prime Minister of the UK.
+          </p>
+        </li>
+        <li class="place">
+          <h2 class="place_title">Berea, USA</h2>
+          <img class="place__image" src="./images/berea__image.png" />
+          <form
+            class="place__form"
+            method="get"
+            action="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+          >
+            <button class="place__button">Buy this artwork as NFT</button>
+          </form>
+
+          <article class="place__website">
+            <p class="place__url-heading">Artist</p>
+            <p class="place__artist">Travis Turner, author and editor</p>
+          </article>
+          <p class="place__paragraph">
+            Berea is a small town located in the central part of Kentucky. The
+            town is surrounded by beautiful forests and countryside. It's known
+            as the arts and crafts capital of the state, and visitors will find
+            plenty of shopping opportunities: shops with handmade jewelry,
+            candles, wood items, galleries, glass studios, and more. The town
+            holds a yearly festival celebrating "spoonbread", a local dish made
+            with cornbread and served with a wooden spoon.
+          </p>
+          <p class="place__paragraph">
+            However, it's probably known best for the local college. Berea
+            College was founded in 1855 and was the first college in the south
+            to be racially integrated, as well as the first to be coeducational.
+            Somewhat uniquely, it charges no tuition — every student receives a
+            full-tuition scholarship.
+          </p>
+        </li>
+        <li class="place">
+          <h2 class="place_title">Muramvya, Burundi</h2>
+          <img class="place__image" src="./images/muramvya__image.png" />
+          <form
+            class="place__form"
+            method="get"
+            action="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+          >
+            <button class="place__button">Buy this artwork as NFT</button>
+          </form>
+
+          <article class="place__website">
+            <p class="place__url-heading">Artist</p>
+            <p class="place__artist">Grevisse Kenguruka, tech editor</p>
+          </article>
+          <p class="place__paragraph">
+            Muramvya is one of the 18 provinces of Burundi. In the kingdom era,
+            Muramvya was the royal capital and in 2007, because of its cultural
+            and natural landscape, it was added to the UNESCO World Heritage
+            Tentative List. It is located in the center of Burundi, between the
+            country's political and economic capitals
+          </p>
+          <p class="place__paragraph">
+            The weather is rather chilly at night, but during the day, you would
+            think you're in heaven. At 2,665 meters (8,743 ft) above sea level,
+            Mount Teza is one of the coldest places in the province. But that
+            cool breeze allows for one of the largest plantations of tea and
+            coffee in the country, which make up the bulk of Burundi's exports.
+          </p>
+          <p class="place__paragraph">
+            The Kibira National Park, one of the largest wildlife reserves for
+            apes, overlaps four provinces, including Muramvya. This National
+            Park lies at the apex of the beautiful mountains of the Congo-Nile
+            Divide, ranging between 1550 and 2660 meters of altitude. It is
+            filled with beautiful vegetation, and a source for the various
+            rivers and streams which provide water around the country.
+          </p>
+        </li>
+
+        <li class="place">
+          <h2 class="place_title">Moscow, Russia</h2>
+          <img class="place__image" src="./images/moscow__image.png" />
+          <form
+            class="place__form"
+            method="get"
+            action="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+          >
+            <button class="place__button">Buy this artwork as NFT</button>
+          </form>
+
+          <article class="place__website">
+            <p class="place__url-heading">Artist</p>
+            <p class="place__artist">
+              Konstantin Khaletskiy, serial founder and tech entrepreneur
+            </p>
+          </article>
+          <p class="place__paragraph">
+            The first known reference to Moscow dates from 1147 as a meeting
+            place of Yuri Dolgoruky and Sviatoslav Olegovich. At the time it was
+            a minor town on the western border of Vladimir-Suzdal Principality.
+            The chronicle says, "Come, my brother, to Moskov"
+          </p>
+          <p class="place__paragraph">
+            Moscow is a hometown of Moscow Methodological Circle (MMC). MMC was
+            a scientific organisation set up by Georgy Shchedrovitsky to examine
+            problems from an inter-disciplinary point of view, looking at the
+            various methodological approaches of each discipline to yield what
+            they described as "systemic thinking activity".
+          </p>
+          <p class="place__paragraph">
+            From the 1950s Shchedrovitsky developed a series of seminars which
+            attracted mathematicians, psychologists, historians, architects,
+            sociologists and physicians who focused their discussions of logical
+            and epistemological issues.[1] He became involved in the Moscow
+            Methodological Circle set up by Alexander Zinoviev. In 1954,
+            Shchedrovitsky took over leadership of the circle and played a
+            prominent role in developing activity theory. Here the world was not
+            seen as composed of human subjects and objects as in naturalistic
+            theory. Rather objects are secondary constructs whose nature depends
+            on the activity applied to them. Shchedrovitsky argued that activity
+            was not so much an attribute of any individual but rather a system
+            within which an individual is "captured" and which determines how
+            they behave. Further he reflected on the task of the scientist,
+            bearing in mind that a particular complex "object" might be viewed
+            from a number of different scientific perspectives: thus the work of
+            the scientist involves not just examining the object within a
+            specific scientific framework, but must also involve the choice of
+            methodology by which the subject is marked as a distinct subject of
+            scientific enquiry.
+          </p>
+        </li>
+      </ul>
+      <section class="cover">
+        <img class="cover_background" src="images/footer__background.png" />
+        <div class="cover_visit-us">
+          <h2 class="cover__title">Visit us</h2>
+          <adress class="cover__subtitle">
+            Year-round<br />Practicum Art Gallery<br />
+            404 Tim Berners-Lee Ave
+          </adress>
+          <form
+            class="cover__form"
+            method="get"
+            action="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+          >
+            <button class="cover_button">Buy tickets</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">© 2021. Konstantin Khaketskiy</footer>
   </body>
 </html>
