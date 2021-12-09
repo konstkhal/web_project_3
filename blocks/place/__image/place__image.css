@@ -1,0 +1,8 @@
+.place__image {
+  margin: 48px 40px 0 0;
+  max-width: 460px;
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

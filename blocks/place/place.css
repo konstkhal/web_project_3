@@ -1,0 +1,7 @@
+.place {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 984px;
+  max-height: 756px;
+}
