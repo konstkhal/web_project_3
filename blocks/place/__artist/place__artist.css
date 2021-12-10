@@ -1,0 +1,5 @@
+.place__artist {
+  margin: 0;
+  font-size: 18px;
+  line-height: calc(22px / 18px);
+}

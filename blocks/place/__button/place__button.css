@@ -1,0 +1,10 @@
+.place__button {
+  margin: 48px 0 0 0;
+  width: 248px;
+  height: 48px;
+  background-color: #0278fe;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: calc(21px / 18 px);
+  border-radius: 4px;
+}
