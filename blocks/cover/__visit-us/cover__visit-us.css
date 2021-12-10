@@ -1,0 +1,9 @@
+.cover__visit-us {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
+  max-width: 656px;
+  max-height: 254px;
+  z-index: 2;
+}

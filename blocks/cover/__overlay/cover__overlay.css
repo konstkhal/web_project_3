@@ -1,0 +1,12 @@
+.cover__overlay {
+  border: 10px solid red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1184px;
+  height: 740px;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  z-index: 5;
+  overflow: visible;
+}
