@@ -1,9 +1,12 @@
 .places {
-  max-width: 987px;
+  /*   max-width: 987px;
+ */
   display: flex;
   flex-direction: column;
-  margin: 92px calc(100vw- 145px - 987px) 0 145px;
+  margin: 0 145px 0 148px;
   list-style: none;
   padding: 0;
   flex-wrap: wrap;
+  /*   width: calc(100%- (48px * 2));
+ */
 }

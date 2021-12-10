@@ -25,6 +25,7 @@
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/place/__artist/place__artist.css);
 @import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__title/place__title.css);
 
 /* modificators */
