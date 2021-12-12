@@ -14,6 +14,7 @@
 @import url(../blocks/places/places.css);
 
 /* elements */
+@import url(../blocks/cover/__adress/cover__adress.css);
 @import url(../blocks/cover/__form/cover__form.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);

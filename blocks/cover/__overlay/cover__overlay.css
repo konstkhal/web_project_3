@@ -1,12 +1,18 @@
 .cover__overlay {
-  border: 10px solid red;
+  border: 1px solid red;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 1184px;
-  height: 740px;
+
+  /*   top: 20px;
+  left: 0; */
+  width: 100%;
+  height: 100%;
   background-color: #2a2c2f;
   opacity: 0.3;
-  z-index: 5;
+  transition: opacity 0.8s;
+
   overflow: visible;
+}
+
+.cover__overlay:hover {
+  opacity: 0.8;
 }

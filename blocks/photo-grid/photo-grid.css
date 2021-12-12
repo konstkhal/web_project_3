@@ -6,4 +6,5 @@
   width: calc(100%- (48px * 2));
   grid-gap: 16px;
   grid-template-columns: repeat(4, 1fr);
+  position: relative;
 }

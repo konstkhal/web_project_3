@@ -5,5 +5,17 @@
 
   max-width: 656px;
   max-height: 254px;
-  z-index: 2;
+  /*   z-index: 8;
+  background-color: rgb(230, 230, 38); */
+  /*   background-color: chartreuse;
+ */
 }
+/* .cover__visit-us:hover {
+  z-index: 1;
+}
+*/
+/* .cover__visit-us:hover ~ .cover__overlay {
+  z-index: 50;
+  opacity: 0.8;
+}
+ */

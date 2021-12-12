@@ -1,8 +1,9 @@
-/* * {
+* {
   border: 1px solid red;
-} */
+}
 
 .page {
+  font-family: "Inter", sans-serif;
   background-color: #2a2c2f;
   max-width: 100%;
   min-width: 320px;
@@ -11,6 +12,4 @@
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  /*   */
-  /* justify-content: center; */
 }

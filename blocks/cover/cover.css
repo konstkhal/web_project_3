@@ -1,7 +1,8 @@
 .cover {
   display: flex;
   flex-direction: column;
-  margin: 25px 0 48px 0;
+  margin: 25px 0 0 0;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
