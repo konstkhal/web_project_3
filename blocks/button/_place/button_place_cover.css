@@ -1,6 +1,7 @@
-.place__button {
-  margin: 48px 0 0 0;
-  width: 248px;
+.button_place_cover {
+  align-self: center;
+  justify-self: center;
+  max-width: 137px;
   height: 48px;
   background-color: #0278fe;
   color: #ffffff;
