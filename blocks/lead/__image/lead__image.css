@@ -9,3 +9,14 @@
 .lead__image:hover {
   filter: grayscale(0);
 }
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    max-width: 768px;
+    width: 100%;
+    /* margin: 90px calc((768px - 100%) / 2) 0; */
+    /*     margin: 90px 0 0;
+ */
+    margin: 64px 0 0;
+  }
+}

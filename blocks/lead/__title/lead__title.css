@@ -5,3 +5,11 @@
   font-size: 100px;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    max-width: 720px;
+    /* margin: 90px calc((768px - 100%) / 2) 0; */
+    margin: 90px 0 0;
+  }
+}
