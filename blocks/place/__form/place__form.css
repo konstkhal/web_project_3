@@ -1,0 +1,10 @@
+.place__form {
+  grid-area: form;
+  max-height: 92px;
+}
+@media screen and (max-width: 768px) {
+  .place__form {
+    grid-area: form;
+    max-height: 92px;
+  }
+}

@@ -1,4 +1,15 @@
-/* .buy-button_place_place {
+.button_place_place {
+  /*   position: relative;
+ */ /*   bottom: 0;
+ */
   max-width: 248px;
   max-height: 48px;
-} */
+  /* margin: 48px 0 0 0; */
+}
+
+@media screen and (max-width: 768px) {
+  .button_place_place {
+    max-width: 814px;
+    /* margin: 48px 120px 31px 0; */
+  }
+}

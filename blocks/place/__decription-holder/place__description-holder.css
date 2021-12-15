@@ -1,0 +1,11 @@
+.place__description-holder {
+  max-width: 484px;
+  grid-area: description;
+}
+
+@media screen and (max-width: 768px) {
+  .place__description-holder {
+    width: 44vw;
+    max-width: 352px;
+  }
+}

@@ -1,8 +1,13 @@
 .cover {
   display: flex;
   flex-direction: column;
-  margin: 25px 0 0 0;
+  margin: 92px 0 0 0;
   justify-content: center;
   align-items: center;
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .page {
+    margin: 92px 0 0 0;
+  }
 }

@@ -1,3 +1,16 @@
 .place__website {
-  margin: 0 0 48px;
+  /*   margin: 107px 23px 21px 0;
+ */
+  width: 20vw;
+  margin: 60px 23px 21px 0;
+  grid-area: website;
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    /*     margin: 47px 0 23px 0;
+ */
+    grid-area: website;
+    margin: 0px 0 23px 0;
+  }
 }

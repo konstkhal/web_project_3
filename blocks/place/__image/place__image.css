@@ -1,8 +1,16 @@
 .place__image {
-  margin: 48px 40px 0 0;
+  /*   margin: 48px 40px 0 0; */
   max-width: 460px;
   object-fit: contain;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  grid-area: image;
+}
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    /*    margin: 48px 28px 0 0; */
+    max-width: 340px;
+  }
 }
