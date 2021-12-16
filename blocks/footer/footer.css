@@ -8,9 +8,9 @@
   /* display: inline-block; */
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .footer {
-    max-width: 768px;
-    margin: 0;
+    max-width: 320px;
+    margin: 64px calc((100% - 165px) / 2) 24px;
   }
-} */
+}
