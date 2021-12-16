@@ -18,3 +18,13 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    width: 100%;
+    max-width: 288px;
+    margin: 0 0 0 0;
+    grid-template-columns: 1fr;
+    grid-gap: 12px;
+  }
+}
