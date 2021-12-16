@@ -5,3 +5,13 @@
   max-width: 720px;
   min-width: 288px;
 }
+
+@media screen and (max-width: 320px) {
+  .intro__citation {
+    width: 100%;
+    max-width: 320px;
+    margin: 40px 0 0 0;
+    line-height: calc(30 / 24);
+    font-size: 24px;
+  }
+}

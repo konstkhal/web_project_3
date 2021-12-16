@@ -6,3 +6,13 @@
   min-width: 288px;
   text-align: right;
 }
+
+@media screen and (max-width: 320px) {
+  .intro__citation-author {
+    width: 100%;
+    max-width: 320px;
+    margin: 10px 0 0 0;
+    line-height: calc(30 / 24);
+    font-size: 24px;
+  }
+}
