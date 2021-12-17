@@ -8,3 +8,9 @@
     /* margin: 47px 0 8px 0; */
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__url-heading {
+    margin: 0 0 8px 0;
+  }
+}

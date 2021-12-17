@@ -19,3 +19,13 @@
     font-size: 42px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    max-width: unset;
+    max-height: unset;
+    margin: 0 calc((100% - 286px) / 2) 0;
+    line-height: calc(35 / 32);
+    font-size: 32px;
+  }
+}

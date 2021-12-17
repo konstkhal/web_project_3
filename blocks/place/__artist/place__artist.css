@@ -12,3 +12,11 @@
     margin: 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .place__artist {
+    width: unset;
+    max-width: unset;
+    margin: 0 0 2vh 0;
+  }
+}
