@@ -1,30 +1,20 @@
 .cover__visit-us {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: relative;
+
+  top: calc(243px * 2);
+
   align-items: center;
 
   max-width: 656px;
-  max-height: 254px;
-  /*   z-index: 8;
-  background-color: rgb(230, 230, 38); */
-  /*   background-color: chartreuse;
- */
-}
-/* .cover__visit-us:hover {
-  z-index: 1;
-}
-*/
-/* .cover__visit-us:hover ~ .cover__overlay {
-  z-index: 50;
-  opacity: 0.8;
-}
- */
+
+
 
 @media screen and (max-width: 320px) {
   .cover__visit-us {
+    top: calc(46px * 4.5);
     max-width: 288px;
-    max-height: unset;
     line-height: calc(35 / 32);
     font-size: 32px;
     margin: 41px 0 0 0;

@@ -7,9 +7,8 @@
 @media screen and (max-width: 320px) {
   .cover__title {
     max-width: fit-content;
-    max-height: unset;
+
     font-size: 32px;
     line-height: calc(35 / 32);
-    /* margin: 0px calc(100% - 286px / 2); */
   }
 }

@@ -1,11 +1,8 @@
 .footer {
-  /*   max-width: 165px;
-  max-height: 16px; */
   align-self: center;
   font-size: 14px;
   line-height: calc(16 / 14);
   margin: 92px 0 24px 0;
-  /* display: inline-block; */
 }
 
 @media screen and (max-width: 320px) {
@@ -13,7 +10,5 @@
     margin: 64px 0 24px 0;
     font-size: 14px;
     line-height: calc(14 / 14);
-    /*     max-width: 165px;
- */ /*     margin: 64px calc((100% - 165px) / 2) 24px; */
   }
 }

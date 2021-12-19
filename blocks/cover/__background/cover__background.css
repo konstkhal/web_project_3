@@ -1,5 +1,6 @@
 @media screen and (max-width: 768px) {
   .cover__background {
+    display: block;
     max-width: 768px;
     margin: 0;
     object-fit: hidden;

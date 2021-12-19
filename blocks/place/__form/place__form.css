@@ -1,16 +1,7 @@
 .place__form {
   grid-area: form;
-  /*   max-height: 92px;
- */
 }
-/*
-@media screen and (max-width: 768px) {
-  .place__form {
-    grid-area: form;
-     max-height: 92px;
-  }
-}
- */
+
 @media screen and (max-width: 320px) {
   .place__form {
     margin: 0 calc((100% - 286px) / 2) 0;

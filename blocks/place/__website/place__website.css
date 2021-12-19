@@ -8,8 +8,6 @@
 
 @media screen and (max-width: 768px) {
   .place__website {
-    /*     margin: 47px 0 23px 0;
- */
     grid-area: website;
     margin: 0px 0 23px 0;
   }
@@ -17,10 +15,6 @@
 
 @media screen and (max-width: 320px) {
   .place__website {
-    /*     margin: 47px 0 23px 0;
-
- */
-    max-height: fit-content;
     width: unset;
     grid-area: website;
     margin: 30px calc((100% - 286px) / 2) 0;
