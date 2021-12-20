@@ -3,15 +3,18 @@
   font-size: 54px;
   padding: 0;
   margin-top: 0;
-  margin-left: 0;
-  max-width: 785px;
+  margin-left: 148px;
+  /*   max-width: 785px;
+ */
+  justify-content: flex-end;
   /* margin-right: calc(100px * 347 / 1280); */
-  max-width: calc(785 / 1280 * 100vw);
+  /*   max-width: calc(785 / 1280 * 100vw); */
   /*   width: 100%;*/
   /* max-width: calc(785 / 1280 * 100vw);  */
   /*   max-width: 785px;
   min-width: 288px; */
-  text-align: flex-end;
+  /*   text-align: flex-end;
+ */
 }
 
 @media screen and (max-width: 320px) {

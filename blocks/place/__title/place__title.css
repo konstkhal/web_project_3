@@ -4,9 +4,10 @@
   line-height: calc(76 / 72);
   font-size: 72px;
   max-width: 460px;
-
+  /*   justify-self: flex-start;
+ */
   margin: 0;
-
+  align-self: flex-end;
   grid-area: header;
 }
 
