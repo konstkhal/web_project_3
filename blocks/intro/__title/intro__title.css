@@ -2,17 +2,24 @@
   line-height: calc(54 / 58);
   font-size: 54px;
   padding: 0;
-  margin: 0 0 0;
+  margin-top: 0;
+  margin-left: 0;
   max-width: 785px;
-  min-width: 288px;
-  text-align: left;
+  /* margin-right: calc(100px * 347 / 1280); */
+  max-width: calc(785 / 1280 * 100vw);
+  /*   width: 100%;*/
+  /* max-width: calc(785 / 1280 * 100vw);  */
+  /*   max-width: 785px;
+  min-width: 288px; */
+  text-align: flex-end;
 }
 
 @media screen and (max-width: 320px) {
   .intro__title {
     width: 100%;
     max-width: 320px;
-    margin: 0 0 0 0;
+    /* margin-right: 0;
+ */
     line-height: calc(35 / 32);
     font-size: 32px;
   }
