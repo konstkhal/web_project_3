@@ -1,17 +1,31 @@
 .cover {
+  background-image: url(../../images/cover__background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  /*   width: 100%;
+ */
   display: flex;
   flex-direction: column;
   margin: 92px 0 0 0;
   justify-content: center;
   align-items: center;
   position: relative;
-  /*   object-fit: contain; */
+  object-fit: contain;
+  /*  min-height: 740px; */
+  width: 100%;
+  height: 100vh;
+  max-height: 100%;
+}
+
+.cover:hover .cover__overlay {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) {
   .cover {
     max-width: 768px;
-    margin: 92px 0 0 0;
+
+    background-size: contain;
   }
 }
 

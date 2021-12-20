@@ -3,17 +3,16 @@
     display: block;
     max-width: 768px;
     margin: 0;
-    object-fit: hidden;
+    /*     object-fit: hidden;
+ */
     width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__background {
-    width: 100%;
-
     max-width: 320px;
-    margin: 0;
-    object-fit: hidden;
+    /*     object-fit: hidden;
+ */
   }
 }
