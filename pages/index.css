@@ -1,7 +1,6 @@
 /* vendors */
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
-
 /* blocks */
 @import url(../blocks/button/button.css);
 @import url(../blocks/cover/cover.css);
@@ -14,15 +13,14 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/places/places.css);
-
 /* elements */
+@import url(../blocks/footer/__paragraph/footer__paragraph.css);
 @import url(../blocks/cover/__adress/cover__adress.css);
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__form/cover__form.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__visit-us/cover__visit-us.css);
-/* @import url(../blocks/cover/__button/cover__button.css); */
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/intro/__citation-author/intro_citation-author.css);
 @import url(../blocks/intro/__citation/intro__citation.css);
@@ -42,7 +40,6 @@
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__website/place__website.css);
-
 /* modificators */
 @import url(../blocks/button/_place/button_place_cover.css);
 @import url(../blocks/button/_place/button_place_place.css);
