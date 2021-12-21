@@ -3,17 +3,17 @@
   grid-area: description;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 788px) {
   .place__description-holder {
     width: 44vw;
     max-width: 352px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
   .place__description-holder {
     width: unset;
-    max-width: 288px;
-    margin: 30px calc((100% - 286px) / 2) 0;
+    /*     max-width: 288px;
+ */ /* margin: 30px calc((100% - 286px) / 2) 0; */
   }
 }

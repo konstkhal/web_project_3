@@ -20,11 +20,11 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
   .place__title {
-    max-width: unset;
-
-    margin: 0 calc((100% - 286px) / 2) 0;
+    /*     max-width: unset;
+ */
+    /* margin: 0 calc((100% - 286px) / 2) 0; */
     line-height: calc(35 / 32);
     font-size: 32px;
   }

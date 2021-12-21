@@ -25,22 +25,22 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
   .place {
     max-width: 320px;
-    margin: 27px 0 0 0;
+    margin: 50px 0 0 0;
 
-    grid-gap: unset;
-    grid-template-columns: min-content;
-    /*     grid-template-columns: fit-content(300px) minmax(auto, 600px);
- */
-    grid-template-rows:
-      fit-content(auto) fit-content(auto) 320px fit-content(auto)
-      fit-content(auto);
+    grid-gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+    /*    grid-template-rows:
+      minmax(35px, 70px) minmax(39px, 82px) 320px auto auto
+      fit-content(auto); */
     grid-template-areas:
       "header"
       "website"
       "image"
+      "description"
       "description"
       "form";
   }

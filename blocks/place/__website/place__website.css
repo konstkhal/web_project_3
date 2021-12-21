@@ -16,10 +16,10 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
   .place__website {
     width: unset;
     grid-area: website;
-    margin: 30px calc((100% - 286px) / 2) 0;
+    /*   margin: 30px calc((100% - 286px) / 2) 0; */
   }
 }
