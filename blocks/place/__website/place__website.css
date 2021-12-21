@@ -9,10 +9,10 @@
   grid-area: website;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 788px) {
   .place__website {
     grid-area: website;
-    margin: 0px 0 23px 0;
+    /* margin: 0px 0 23px 0; */
   }
 }
 

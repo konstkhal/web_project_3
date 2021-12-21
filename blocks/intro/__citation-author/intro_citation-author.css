@@ -7,6 +7,13 @@
   text-align: right;
 }
 
+@media screen and (max-width: 788px) {
+  .intro__citation-author {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .intro__citation-author {
     width: 100%;

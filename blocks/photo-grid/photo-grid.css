@@ -3,7 +3,7 @@
   padding: 0;
   display: grid;
   width: 100%;
-  width: calc(100% - (48px * 2));
+
   grid-gap: 16px;
   grid-template-columns: repeat(4, 1fr);
   position: relative;
@@ -11,11 +11,13 @@
 
 @media screen and (min-width: 1184px) {
   .photo-grid {
-    max-width: 1184px;
+    width: calc(100% - (48px * 2));
+    max-width: 1280px;
+    min-width: 1184px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 788px) {
   .photo-grid {
     margin: 90px 24px 0;
 

@@ -11,10 +11,10 @@
   grid-area: header;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 788px) {
   .place__title {
     max-width: 340px;
-    margin: 0 28px 0 0;
+    margin: 68px 0 0 0;
     line-height: calc(46 / 42);
     font-size: 42px;
   }

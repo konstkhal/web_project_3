@@ -1,35 +1,22 @@
 .intro {
   display: flex;
   flex-direction: column;
-  /*   max-width: 785px;
- */
-
-  /*   margin-right: calc(100% - (100% - (785px / 2)));
- */
   align-self: flex-start;
   margin-top: 92px;
-  /* margin-left: 148px; */
-  /*   align-se lf: center;
-  justify-self: baseline; */
-  /* margin-right: calc(100% - 984px); */
-  /*   margin: 92px calc(100% - 984px -148px) 0; */
-  /* max-width: calc(984 / 1280 * 100vh); */
-  /* position: relative; */
 }
 @media screen and (min-width: 1100px) {
   .intro {
-    /*     margin-left: calc((100% - 984px) / 2);
+    /*      width: calc(100% * (785 / 1280));
  */
-
-    width: calc(100% * (785 / 1280));
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 788px) {
   .intro {
     max-width: 720px;
     width: calc(100% - (24px * 2));
-    margin: 92px 24px 0;
+    margin: 88px 24px 0;
   }
 }
 

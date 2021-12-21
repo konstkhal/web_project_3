@@ -3,9 +3,15 @@
   color: #aaaaaa;
   text-transform: uppercase;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .place__url-heading {
-    /* margin: 47px 0 8px 0; */
+     margin: 47px 0 8px 0;
+  }
+} */
+
+@media screen and (max-width: 788px) {
+  .place__url-heading {
+    margin: 0 0 8px 0;
   }
 }
 

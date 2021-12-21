@@ -2,6 +2,12 @@
   max-width: 248px;
 }
 
+@media screen and (max-width: 788px) {
+  .button_place_place {
+    margin-top: 2px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .button_place_place {
     max-width: 288px;

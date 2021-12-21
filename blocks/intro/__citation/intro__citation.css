@@ -5,6 +5,14 @@
   max-width: 720px;
 }
 
+@media screen and (max-width: 788px) {
+  .intro__citation {
+    margin-left: 0;
+
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .intro__citation {
     width: 100%;
