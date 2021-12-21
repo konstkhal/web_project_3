@@ -1,16 +1,26 @@
 .cover__overlay {
-  /*   border: 1px solid red; */
-  position: absolute;
+  border: 1px solid green;
 
+  /*   z-index: 1; */
+  position: absolute;
   /*   top: 20px;
   left: 0; */
-  width: 100%;
+  /*   width: 1184px;
+ */ /*   width: calc(1184px / 1280 * 100%);
+ */
+  /*   height: 740px;
+ */ /*  height: calc(1184px / 1280 * 100%); */
+  /*   height: calc(100vh * 1184 / 1280);
+ */
   height: 100%;
+  width: 100%;
+  /* height: calc(1184px / 100h * 1280px); */
+
   background-color: #2a2c2f;
   opacity: 0.3;
   transition: opacity 0.8s;
-
-  overflow: visible;
+  /*   overflow: visible;
+ */
 }
 
 /* .cover__overlay:hover {
