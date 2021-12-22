@@ -23,26 +23,20 @@
 .cover:hover .cover__overlay {
   opacity: 0.8;
 }
-
-@media screen and (max-width: 768px) {
+/*started 2 responsivnessss from here!*/
+@media screen and (max-width: 1279px) {
   .cover {
-    /*     max-width: 768px;
- */
+    width: 720px;
     min-height: 746px;
+    align-self: center;
     /*   */
   }
 }
-
-@media screen and (max-width: 330px) {
+/*started responsivnessss from here!*/
+@media screen and (max-width: 719px) {
   .cover {
-    /*     width: 100%;
- */
-    /*     max-width: 320px;
- */
     min-height: 254px;
     margin: 64px 0 0;
     width: 100%;
-    /*     margin-top: 64px;
- */
   }
 }

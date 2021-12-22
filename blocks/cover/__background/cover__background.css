@@ -1,4 +1,5 @@
-@media screen and (max-width: 768px) {
+/*started 2 responsivnessss from here!*/
+@media screen and (max-width: 1279px) {
   .cover__background {
     display: block;
     max-width: 768px;
@@ -8,8 +9,8 @@
     width: 100%;
   }
 }
-
-@media screen and (max-width: 320px) {
+/*started responsivnessss from here!*/
+@media screen and (max-width: 719px) {
   .cover__background {
     max-width: 320px;
     /*     object-fit: hidden;

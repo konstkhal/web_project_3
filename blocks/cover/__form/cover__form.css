@@ -3,8 +3,8 @@
   flex-direction: column;
   margin: 32px 0 0 0;
 }
-
-@media screen and (max-width: 320px) {
+/*started responsivnessss from here!*/
+@media screen and (max-width: 719px) {
   .cover__form {
     margin: 16px 0 0 0;
   }
