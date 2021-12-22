@@ -1,17 +1,15 @@
 .button_place_place {
   max-width: 248px;
 }
-
 @media screen and (max-width: 788px) {
   .button_place_place {
     margin-top: 2px;
   }
 }
-
-@media screen and (max-width: 320px) {
+/*started responsivnessss from here!*/
+@media screen and (max-width: 719px) {
   .button_place_place {
     max-width: 288px;
-
     font-size: 18px;
     line-height: calc(22 / 18);
   }

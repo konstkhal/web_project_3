@@ -4,21 +4,10 @@
   font-size: 18px;
   line-height: calc(22 / 18);
 }
-
+/*started responsivnessss from here!*/
 @media screen and (max-width: 788px) {
   .place__artist {
-    /*     width: 44vw;
- */
     max-width: 352px;
     margin: 0;
   }
 }
-
-/* @media screen and (max-width: 768px) {
-  .place__artist {
-    width: unset;
-    max-width: unset;
-    margin: 0 0 2vh 0;
-  }
-}
- */

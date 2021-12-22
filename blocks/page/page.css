@@ -1,8 +1,10 @@
-* {
+/* * {
   border: 1px solid red;
 }
-
+ */
 .page {
+  /* border: 1px solid red; */
+  justify-self: center;
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,9 +14,9 @@
   text-rendering: optimizeLegibility;
 
   background-color: #2a2c2f;
-
+  width: 100%;
   min-width: 320px;
-  margin: 0 0 0;
+  /* margin: 0 100vw 0; */
 
   color: #ffffff;
   display: flex;
@@ -27,11 +29,12 @@
     margin: 0;
   }
 }
-
-@media screen and (max-width: 320px) {
+/*started responsivnessss from here!*/
+@media screen and (max-width: 719px) {
   .page {
-    width: 100%;
-    max-width: 320px;
-    margin: 0 0 0 0;
+    /* width: 100%; */
+    max-width: 100%;
+    /* margin: 0 0 0 0; */
+    /* margin: 0 calc((100%-322px) / 2) 0; */
   }
 }

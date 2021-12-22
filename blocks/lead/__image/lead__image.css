@@ -20,8 +20,8 @@
     margin-top: 36px;
   }
 }
-
-@media screen and (max-width: 320px) {
+/*started responsivnessss from here!*/
+@media screen and (max-width: 719px) {
   .lead__image {
     max-width: 320px;
     /* margin: 90px calc((768px - 100%) / 2) 0; */

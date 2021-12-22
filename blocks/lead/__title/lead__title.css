@@ -13,8 +13,8 @@
     margin: 90px 0 0;
   }
 }
-
-@media screen and (max-width: 320px) {
+/*started responsivnessss from here!*/
+@media screen and (max-width: 719px) {
   .lead__title {
     max-width: 288px;
     /* margin: 90px calc((768px - 100%) / 2) 0; */

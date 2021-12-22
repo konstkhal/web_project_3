@@ -9,11 +9,9 @@
     max-width: 352px;
   }
 }
-
-@media screen and (max-width: 330px) {
+/*started responsivnessss from here!*/
+@media screen and (max-width: 719px) {
   .place__description-holder {
     width: unset;
-    /*     max-width: 288px;
- */ /* margin: 30px calc((100% - 286px) / 2) 0; */
   }
 }

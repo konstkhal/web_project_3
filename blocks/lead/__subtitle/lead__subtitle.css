@@ -16,8 +16,8 @@
  */
   }
 }
-
-@media screen and (max-width: 320px) {
+/*started responsivnessss from here!*/
+@media screen and (max-width: 719px) {
   .lead__subtitle {
     max-width: 288px;
     /* margin: 90px calc((768px - 100%) / 2) 0; */

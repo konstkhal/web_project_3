@@ -3,6 +3,7 @@
   line-height: calc(34 / 24);
   margin: 40px 0 0 148px;
   max-width: 720px;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 788px) {
@@ -13,10 +14,12 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 719px) {
   .intro__citation {
-    width: 100%;
-    max-width: 320px;
+    /*     width: 100%;
+ */
+    margin: 0;
+    max-width: 100%;
     line-height: calc(30 / 24);
   }
 }

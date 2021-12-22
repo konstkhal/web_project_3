@@ -1,8 +1,10 @@
 .intro {
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
+  /*   align-self: flex-start;
+ */
   margin-top: 92px;
+  align-items: center;
 }
 @media screen and (min-width: 1100px) {
   .intro {
@@ -20,10 +22,11 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 719px) {
   .intro {
-    width: calc(100% - (16px * 2));
     max-width: 320px;
-    margin: 64px 16px 0;
+
+    /*  max-width: 320px; */
+    margin-top: 64px;
   }
 }
