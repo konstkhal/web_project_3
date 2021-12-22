@@ -13,5 +13,7 @@
 @media screen and (max-width: 719px) {
   .place__description-holder {
     width: unset;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
