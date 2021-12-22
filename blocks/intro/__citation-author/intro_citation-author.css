@@ -5,16 +5,17 @@
   max-width: 720px;
   /* min-width: 288px; */
   text-align: right;
+  align-self: flex-end;
 }
 
-@media screen and (max-width: 788px) {
+@media screen and (max-width: 1279px) {
   .intro__citation-author {
     margin-right: 0;
     margin-left: 0;
   }
 }
-
-@media screen and (max-width: 719px) {
+/*started responsivnessss from here!*/
+@media screen and (max-width: 767px) {
   .intro__citation-author {
     width: 100%;
     max-width: 320px;

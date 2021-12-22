@@ -2,7 +2,7 @@
   grid-area: form;
 }
 /*started responsivnessss from here!*/
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 767px) {
   .place__form {
     display: flex;
     align-items: center;

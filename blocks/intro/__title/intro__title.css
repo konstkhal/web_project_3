@@ -5,33 +5,25 @@
   margin-top: 0;
   margin-left: 148px;
   margin-bottom: 0;
-
-  justify-content: flex-end;
+  justify-content: center;
 }
-
-@media screen and (min-width: 1100px) {
+/*started 2 responsivnessss from here!*/
+@media screen and (max-width: 1279px) {
   .intro__title {
-    margin-left: 148px;
-    width: 785px;
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 788px) {
-  .intro__title {
+    /*    margin-left: minmax(0, calc((100%-720px) / 2)); */
     margin-left: 0;
-
+    margin-right: 0;
+    max-width: 720px;
     justify-content: center;
   }
 }
-
-@media screen and (max-width: 719px) {
+/*started responsivnessss from here!*/
+@media screen and (max-width: 767px) {
   .intro__title {
     width: 100%;
     max-width: 320px;
-    /* margin-right: 0;
- */
     line-height: calc(35 / 32);
     font-size: 32px;
+    margin: 0;
   }
 }

@@ -10,7 +10,7 @@
   }
 }
 /*started responsivnessss from here!*/
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 767px) {
   .place__description-holder {
     width: unset;
     margin-left: 16px;

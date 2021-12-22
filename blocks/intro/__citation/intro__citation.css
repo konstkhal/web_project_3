@@ -1,13 +1,13 @@
 .intro__citation {
   font-size: 24px;
   line-height: calc(34 / 24);
-  margin: 40px 0 0 148px;
-  max-width: 720px;
-  /*   object-fit: contain;
+  margin: 40px 148px 0;
+  /*   max-width: 720px;
+ */ /*   object-fit: contain;
  */
 }
 
-@media screen and (max-width: 788px) {
+@media screen and (max-width: 1279px) {
   .intro__citation {
     margin-left: 0;
 
@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 767px) {
   .intro__citation {
     /*     width: 100%;
  */

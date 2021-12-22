@@ -24,7 +24,7 @@
   }
 }
 /*started responsivnessss from here!*/
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 767px) {
   .place {
     max-width: 320px;
     margin: 50px 0 0 0;

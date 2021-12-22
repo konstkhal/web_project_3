@@ -9,7 +9,7 @@
   }
 }
 /*started responsivnessss from here!*/
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 767px) {
   .place__website {
     width: unset;
     grid-area: website;

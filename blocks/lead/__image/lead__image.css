@@ -13,7 +13,7 @@
   filter: grayscale(0);
 }
 
-@media screen and (max-width: 788px) {
+@media screen and (max-width: 1279px) {
   .lead__image {
     max-width: 768px;
     width: 100%;
@@ -21,7 +21,7 @@
   }
 }
 /*started responsivnessss from here!*/
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 767px) {
   .lead__image {
     max-width: 320px;
     /* margin: 90px calc((768px - 100%) / 2) 0; */

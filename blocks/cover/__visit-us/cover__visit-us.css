@@ -7,7 +7,7 @@
 }
 
 /*started responsivnessss from here!*/
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 767px) {
   .cover__visit-us {
     max-width: 288px;
     line-height: calc(35 / 32);
