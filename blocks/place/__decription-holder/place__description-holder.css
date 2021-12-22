@@ -2,8 +2,8 @@
   max-width: 484px;
   grid-area: description;
 }
-
-@media screen and (max-width: 788px) {
+/*started 2 responsivnessss from here!*/
+@media screen and (max-width: 1279px) {
   .place__description-holder {
     width: 44vw;
     max-width: 352px;

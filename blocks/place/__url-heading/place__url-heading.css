@@ -3,7 +3,8 @@
   color: #aaaaaa;
   text-transform: uppercase;
 }
-@media screen and (max-width: 788px) {
+/*started 2 responsivnessss from here!*/
+@media screen and (max-width: 1279px) {
   .place__url-heading {
     margin: 0 0 8px 0;
   }

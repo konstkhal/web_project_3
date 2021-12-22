@@ -7,8 +7,8 @@
   align-self: flex-end;
   grid-area: header;
 }
-
-@media screen and (max-width: 788px) {
+/*started 2 responsivnessss from here!*/
+@media screen and (max-width: 1279px) {
   .place__title {
     max-width: 340px;
     margin: 68px 0 0 0;
@@ -19,11 +19,7 @@
 /*started responsivnessss from here!*/
 @media screen and (max-width: 719px) {
   .place__title {
-    /*     justify-self: center;
- */
     margin-top: 0;
-    /*     margin-right: calc((100%-318px) / 4);
- */
     margin-left: 16px;
     line-height: calc(35 / 32);
     font-size: 32px;

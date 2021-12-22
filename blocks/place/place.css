@@ -12,8 +12,8 @@
     "image description"
     "form description";
 }
-
-@media screen and (max-width: 788px) {
+/*started 2 responsivnessss from here!*/
+@media screen and (max-width: 1279px) {
   .place {
     max-width: 720px;
     margin: 0;

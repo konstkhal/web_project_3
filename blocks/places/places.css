@@ -9,8 +9,8 @@
   flex-wrap: wrap;
   position: relative;
 }
-
-@media screen and (max-width: 788px) {
+/*started 2 responsivnessss from here!*/
+@media screen and (max-width: 1279px) {
   .places {
     max-width: 720px;
   }

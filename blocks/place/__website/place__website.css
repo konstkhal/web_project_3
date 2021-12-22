@@ -2,8 +2,8 @@
   align-self: flex-end;
   grid-area: website;
 }
-
-@media screen and (max-width: 788px) {
+/*started 2 responsivnessss from here!*/
+@media screen and (max-width: 1279px) {
   .place__website {
     grid-area: website;
   }
