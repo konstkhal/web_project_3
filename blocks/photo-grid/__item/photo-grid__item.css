@@ -1,4 +1,11 @@
-.photo-grid__item:nth-child(1n) {
+/*.photo-grid__item:nth-child(1n) {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ */
+
+.photo-grid__item {
   list-style: none;
   margin: 0;
   padding: 0;
