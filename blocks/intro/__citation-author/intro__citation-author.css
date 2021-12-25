@@ -1,10 +1,11 @@
 .intro__citation-author {
   font-size: 24px;
   line-height: calc(34 / 24);
-  margin: 10px 412px 0 0;
+  margin: 10px calc(347px - 148px + 65px) 0 0;
   max-width: 720px;
   /* min-width: 288px; */
-  text-align: right;
+  /*   text-align: right;
+ */
   align-self: flex-end;
 }
 @media screen and (max-width: 1279px) {

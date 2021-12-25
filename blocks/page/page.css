@@ -12,22 +12,19 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-
   background-color: #2a2c2f;
   width: 100%;
   min-width: 320px;
-  /* margin: 0 100vw 0; */
-
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  margin: auto;
+
+  margin: 34px auto 0;
 }
 /*started 2 responsivnessss from here!*/
 @media screen and (max-width: 1279px) {
   .page {
     max-width: 100%;
-    margin: 0;
   }
 }
 /*started responsivnessss from here!*/

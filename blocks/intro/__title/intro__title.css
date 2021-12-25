@@ -2,19 +2,17 @@
   line-height: calc(58 / 54);
   font-size: 54px;
   padding: 0;
-  margin-top: 0;
-  margin-left: 148px;
-  margin-right: 347px;
-  margin-bottom: 0;
+  margin: 0 calc(347px - 148px) 0 0;
+
   justify-content: center;
 }
 /*started 2 responsivnessss from here!*/
 @media screen and (max-width: 1279px) {
   .intro__title {
     /*    margin-left: minmax(0, calc((100%-720px) / 2)); */
-    margin-left: 0;
-    margin-right: 0;
+
     max-width: 720px;
+    margin: 0;
   }
 }
 /*started responsivnessss from here!*/
