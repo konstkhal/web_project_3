@@ -2,17 +2,14 @@
   align-self: flex-end;
   grid-area: website;
 }
-/*started 2 responsivnessss from here!*/
+/*started 2 responsivnessss from here!
 @media screen and (max-width: 1279px) {
   .place__website {
-    grid-area: website;
   }
-}
+}*/
 /*started responsivnessss from here!*/
 @media screen and (max-width: 767px) {
   .place__website {
-    width: unset;
-    grid-area: website;
     margin-left: 16px;
     margin-right: 16px;
   }

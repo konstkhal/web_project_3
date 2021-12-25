@@ -7,14 +7,12 @@
 /*started 2 responsivnessss from here!*/
 @media screen and (max-width: 1279px) {
   .footer {
-    margin: 92px 0 24px 0;
     line-height: calc(14 / 14);
   }
 }
 /*started responsivnessss from here!*/
 @media screen and (max-width: 767px) {
   .footer {
-    margin: 64px 0 24px 0;
-    line-height: calc(14 / 14);
+    margin-top: 64px;
   }
 }

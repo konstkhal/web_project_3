@@ -9,8 +9,7 @@
 /*started responsivnessss from here!*/
 @media screen and (max-width: 719px) {
   .button_place_place {
+    width: 100%;
     max-width: 288px;
-    font-size: 18px;
-    line-height: calc(22 / 18);
   }
 }

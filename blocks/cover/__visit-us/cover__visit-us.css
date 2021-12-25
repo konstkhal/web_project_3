@@ -5,6 +5,11 @@
   align-items: center;
   max-width: 656px;
 }
+/*
+@media screen and (max-width: 1279px) {
+  .cover__visit-us {
+  }
+} */
 
 /*started responsivnessss from here!*/
 @media screen and (max-width: 767px) {
@@ -12,6 +17,5 @@
     max-width: 288px;
     line-height: calc(35 / 32);
     font-size: 32px;
-    margin: 41px 0 0 0;
   }
 }

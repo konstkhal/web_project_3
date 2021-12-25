@@ -1,17 +1,21 @@
 .place__url-heading {
-  margin: 47px 0 8px 0;
+  margin-top: 0;
+  margin-bottom: 8px;
   color: #aaaaaa;
   text-transform: uppercase;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  letter-spacing: 0.12em;
 }
-/*started 2 responsivnessss from here!*/
+/*started 2 responsivnessss from here!
 @media screen and (max-width: 1279px) {
   .place__url-heading {
-    margin: 0 0 8px 0;
   }
-}
-/*started responsivnessss from here!*/
+}*/
+
+/*started responsivnessss from here!
 @media screen and (max-width: 767px) {
   .place__url-heading {
-    margin: 0 0 8px 0;
   }
 }
+*/

@@ -1,6 +1,5 @@
 .place__artist {
   margin: 0px;
-  max-width: 456px;
   font-size: 18px;
   line-height: calc(22 / 18);
 }

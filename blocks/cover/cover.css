@@ -1,35 +1,26 @@
 .cover {
-  /*   border: 1px solid red;
- */
-  /*  z-index: 11; */
-
   background-image: url(../../images/cover__background.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /*   width: 100%;
- */
   display: flex;
   flex-direction: column;
   margin: 92px auto 0;
-  justify-content: center;
   align-items: center;
   position: relative;
-
+  justify-items: center;
+  justify-content: center;
   min-height: 740px;
   width: calc(100% * 1184 / 1280);
-}
-
-.cover:hover .cover__overlay {
-  opacity: 0.8;
 }
 /*started 2 responsivnessss from here!*/
 @media screen and (max-width: 1279px) {
   .cover {
-    width: 720px;
+    width: 100%;
+    max-width: 768px;
     min-height: 746px;
-    align-self: center;
-    /*   */
+    /*     align-self: center;
+ */
   }
 }
 /*started responsivnessss from here!*/
@@ -37,6 +28,5 @@
   .cover {
     min-height: 254px;
     margin: 64px 0 0;
-    width: 100%;
   }
 }

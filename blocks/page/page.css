@@ -21,6 +21,7 @@
   color: #ffffff;
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 /*started 2 responsivnessss from here!*/
 @media screen and (max-width: 1279px) {
@@ -33,6 +34,5 @@
 @media screen and (max-width: 767px) {
   .page {
     margin-top: 20px;
-    max-width: 100%;
   }
 }

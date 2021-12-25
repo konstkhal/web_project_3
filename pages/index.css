@@ -17,12 +17,13 @@
 @import url(../blocks/footer/__paragraph/footer__paragraph.css);
 @import url(../blocks/cover/__adress/cover__adress.css);
 @import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__button/cover__button.css);
 @import url(../blocks/cover/__form/cover__form.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__visit-us/cover__visit-us.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
-@import url(../blocks/intro/__citation-author/intro_citation-author.css);
+@import url(../blocks/intro/__citation-author/intro__citation-author.css);
 @import url(../blocks/intro/__citation/intro__citation.css);
 @import url(../blocks/intro/__description/intro__description.css);
 @import url(../blocks/intro/__title/intro__title.css);
@@ -41,6 +42,7 @@
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/places/__list/places__list.css);
 /* modificators */
 @import url(../blocks/button/_place/button_place_cover.css);
 @import url(../blocks/button/_place/button_place_place.css);
