@@ -6,16 +6,12 @@
 
   justify-content: center;
 }
-/*started 2 responsivnessss from here!*/
 @media screen and (max-width: 1279px) {
   .intro__title {
-    /*    margin-left: minmax(0, calc((100%-720px) / 2)); */
-
     max-width: 720px;
     margin: 0;
   }
 }
-/*started responsivnessss from here!*/
 @media screen and (max-width: 767px) {
   .intro__title {
     width: 100%;

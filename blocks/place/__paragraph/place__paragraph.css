@@ -3,12 +3,9 @@
   line-height: calc(29 / 18);
   font-size: 18px;
 }
-
 .place__paragraph:last-child {
   margin-bottom: 0px;
 }
-
-/*started 2 responsivnessss from here!*/
 @media screen and (max-width: 1279px) {
   .place__paragraph {
     line-height: calc(26 / 16);
@@ -16,7 +13,6 @@
     margin-bottom: 0;
   }
 }
-/*started responsivnessss from here!*/
 @media screen and (max-width: 767px) {
   .place__paragraph {
     margin-bottom: 25px;

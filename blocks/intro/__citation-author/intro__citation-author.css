@@ -3,9 +3,6 @@
   line-height: calc(34 / 24);
   margin: 10px calc(347px - 148px + 65px) 0 0;
   max-width: 720px;
-  /* min-width: 288px; */
-  /*   text-align: right;
- */
   align-self: flex-end;
 }
 @media screen and (max-width: 1279px) {
@@ -14,11 +11,8 @@
     margin-left: 0;
   }
 }
-/*started responsivnessss from here!*/
 @media screen and (max-width: 767px) {
   .intro__citation-author {
-    width: 100%;
-    max-width: 320px;
     line-height: calc(30 / 24);
   }
 }

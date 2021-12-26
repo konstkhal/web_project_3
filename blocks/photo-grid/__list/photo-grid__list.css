@@ -10,15 +10,11 @@
 }
 @media screen and (max-width: 1279px) {
   .photo-grid__list {
-    margin: 0 24px 0;
-    width: calc(100% - (24px * 2));
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 767px) {
   .photo-grid__list {
-    width: 100%;
-    max-width: 288px;
     grid-template-columns: 1fr;
     gap: 12px;
   }

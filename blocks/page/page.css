@@ -1,9 +1,4 @@
-/* * {
-  border: 1px solid red;
-} */
-
 .page {
-  /* border: 1px solid red; */
   justify-self: center;
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -18,16 +13,13 @@
   color: #ffffff;
   display: flex;
   flex-direction: column;
-
   margin: 34px auto 0;
 }
-/*started 2 responsivnessss from here!*/
 @media screen and (max-width: 1279px) {
   .page {
     max-width: 100%;
   }
 }
-/*started responsivnessss from here!*/
 @media screen and (max-width: 767px) {
   .page {
     margin-top: 20px;

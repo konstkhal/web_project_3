@@ -6,7 +6,6 @@
     margin-top: 2px;
   }
 }
-/*started responsivnessss from here!*/
 @media screen and (max-width: 719px) {
   .button_place_place {
     width: 100%;

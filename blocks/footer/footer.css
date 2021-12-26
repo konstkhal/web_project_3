@@ -4,13 +4,11 @@
   line-height: calc(16 / 14);
   margin: 92px 0 24px 0;
 }
-/*started 2 responsivnessss from here!*/
 @media screen and (max-width: 1279px) {
   .footer {
     line-height: calc(14 / 14);
   }
 }
-/*started responsivnessss from here!*/
 @media screen and (max-width: 767px) {
   .footer {
     margin-top: 64px;

@@ -3,7 +3,6 @@
   line-height: calc(76 / 72);
   margin: 0;
 }
-/*started responsivnessss from here!*/
 @media screen and (max-width: 767px) {
   .cover__title {
     max-width: fit-content;
